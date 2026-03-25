@@ -10,9 +10,11 @@ export default function Navbar() {
             Good<span className="text-brand-400">Bot</span>AI
           </span>
         </Link>
-        <div className="flex items-center gap-6 text-sm font-medium text-gray-300">
+        <div className="flex items-center gap-4 text-sm font-medium text-gray-300">
           <Link href="/#about" className="hover:text-brand-400 transition-colors">About</Link>
           <Link href="/#topics" className="hover:text-brand-400 transition-colors">Topics</Link>
+          <a href="https://tracker.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors hidden md:inline">Value Tracker</a>
+          <a href="https://hub.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors hidden md:inline">BitcoinHub</a>
           <Link href="/#newsletter" className="hover:text-brand-400 transition-colors">Newsletter</Link>
           <Link href="/#connect" className="px-4 py-2 bg-brand-500/20 border border-brand-500/40 rounded-lg text-brand-400 hover:bg-brand-500/30 transition-colors">
             Connect

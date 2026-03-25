@@ -157,6 +157,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Ecosystem */}
+      <section id="ecosystem" className="py-24 px-6 border-t border-white/5">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-sm font-semibold text-brand-400 uppercase tracking-widest mb-4 text-center">Built by Tyler + GoodBot</h2>
+          <h3 className="text-4xl font-bold mb-16 text-center">The Full Ecosystem</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="https://tracker.goodbotai.tech" target="_blank" rel="noopener noreferrer"
+              className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
+              <span className="text-3xl mb-4 block">📊</span>
+              <h4 className="font-bold text-lg mb-2 group-hover:text-brand-400 transition-colors">Value Tracker</h4>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">Purchasing power parity tool — see how everyday items cost in USD, Gold, and Bitcoin. Data going back to 1970.</p>
+              <p className="text-brand-400 text-xs font-medium">tracker.goodbotai.tech →</p>
+            </a>
+            <a href="https://hub.goodbotai.tech" target="_blank" rel="noopener noreferrer"
+              className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
+              <span className="text-3xl mb-4 block">₿</span>
+              <h4 className="font-bold text-lg mb-2 group-hover:text-brand-400 transition-colors">BitcoinHub</h4>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">13 interactive Bitcoin education games, live analytics dashboard, real-time BTC market data, and more.</p>
+              <p className="text-brand-400 text-xs font-medium">hub.goodbotai.tech →</p>
+            </a>
+            <a href="https://brewasset.vercel.app" target="_blank" rel="noopener noreferrer"
+              className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
+              <span className="text-3xl mb-4 block">🍺</span>
+              <h4 className="font-bold text-lg mb-2 group-hover:text-brand-400 transition-colors">BrewAsset</h4>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">Beverage distribution SaaS — inventory management built for the way the industry actually works.</p>
+              <p className="text-brand-400 text-xs font-medium">brewasset.vercel.app →</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Newsletter */}
       <section id="newsletter" className="py-24 px-6 border-t border-white/5">
         <div className="max-w-2xl mx-auto text-center">
