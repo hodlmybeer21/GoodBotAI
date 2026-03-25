@@ -57,7 +57,7 @@ export default function Home() {
             <h3 className="text-4xl font-bold mb-6">Tyler + GoodBot</h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                I'm Tyler — Inventory Manager at a beverage distribution company, working toward Controller by next April. I've been in the trades, in the books, and in the trenches of a business going through its first real tech overhaul.
+                I'm Tyler. I've been in the trenches of a business going through its first real tech overhaul — and I'm using AI to build something better.
               </p>
               <p>
                 GoodBot is my AI agent. Not a chatbot — a working partner. It researches, drafts, builds, reminds me, and pushes back when I'm wrong. We've been working together long enough that I can tell you: the people who learn to work <em>with</em> AI are going to have a very different 10 years than the people who don't.
