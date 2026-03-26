@@ -11,11 +11,21 @@ export default function Home() {
     e.preventDefault()
     if (!email) return
     setStatus('loading')
-    // Simulated for now — Resend integration added when domain is verified
-    setTimeout(() => {
-      setStatus('success')
-      setEmail('')
-    }, 800)
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
+      })
+      if (res.ok) {
+        setStatus('success')
+        setEmail('')
+      } else {
+        setStatus('error')
+      }
+    } catch {
+      setStatus('error')
+    }
   }
 
   return (

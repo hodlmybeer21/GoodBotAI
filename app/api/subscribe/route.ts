@@ -1,27 +1,23 @@
-import { NextResponse } from 'next/server'
+import { NextResponse } from 'next/server';
+import { addSubscriber } from '@/lib/resend';
 
 export async function POST(request: Request) {
   try {
-    const { email } = await request.json()
-    
+    const { email } = await request.json();
+
     if (!email || !email.includes('@')) {
-      return NextResponse.json({ error: 'Valid email required' }, { status: 400 })
+      return NextResponse.json({ error: 'Valid email required' }, { status: 400 });
     }
 
-    // TODO: Integrate Resend when domain is verified
-    // RESEND_API_KEY = process.env.RESEND_API_KEY
-    // const resend = new Resend(RESEND_API_KEY)
-    // await resend.contacts.create({
-    //   audienceId: process.env.RESEND_AUDIENCE_ID,
-    //   email,
-    //   unsubscribed: false,
-    // })
+    const result = await addSubscriber(email);
 
-    console.log('Newsletter signup (demo):', email)
-    
-    return NextResponse.json({ success: true })
+    if (!result.success) {
+      return NextResponse.json({ error: result.error }, { status: 500 });
+    }
+
+    return NextResponse.json({ success: true, message: 'Subscribed! Check your inbox to confirm.' });
   } catch (error) {
-    console.error('Newsletter error:', error)
-    return NextResponse.json({ error: 'Failed to subscribe' }, { status: 500 })
+    console.error('Newsletter error:', error);
+    return NextResponse.json({ error: 'Failed to subscribe' }, { status: 500 });
   }
 }
