@@ -180,6 +180,13 @@ export default function Home() {
               <p className="text-gray-400 text-sm leading-relaxed mb-3">Purchasing power parity tool — see how everyday items cost in USD, Gold, and Bitcoin. Data going back to 1970.</p>
               <p className="text-brand-400 text-xs font-medium">tracker.goodbotai.tech →</p>
             </a>
+            <a href="https://fridge.goodbotai.tech" target="_blank" rel="noopener noreferrer"
+              className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
+              <span className="text-3xl mb-4 block">🧊</span>
+              <h4 className="font-bold text-lg mb-2 group-hover:text-brand-400 transition-colors">FridgeAI</h4>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">Scan your fridge, get recipes and a meal plan. Photo AI + Spoonacular meal planning + Instacart cart builder. Live at fridge.goodbotai.tech</p>
+              <p className="text-brand-400 text-xs font-medium">fridge.goodbotai.tech →</p>
+            </a>
             <a href="https://hub.goodbotai.tech" target="_blank" rel="noopener noreferrer"
               className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
               <span className="text-3xl mb-4 block">₿</span>
