@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-dark-900 mt-20">
-      <div className="max-w-5xl mx-auto px-6 py-12">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-3">
@@ -20,6 +20,7 @@ export default function Footer() {
               <Link href="/" className="hover:text-brand-400 transition-colors">Home</Link>
               <Link href="/#about" className="hover:text-brand-400 transition-colors">About</Link>
               <Link href="/#topics" className="hover:text-brand-400 transition-colors">Topics</Link>
+              <Link href="/brewbot" className="hover:text-brand-400 transition-colors">BrewBot</Link>
               <Link href="/#newsletter" className="hover:text-brand-400 transition-colors">Newsletter</Link>
             </div>
           </div>
