@@ -2,10 +2,12 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import DonateModal from '@/components/DonateModal'
 
 export default function Home() {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
+  const [showDonate, setShowDonate] = useState(false)
 
   const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -273,14 +275,17 @@ export default function Home() {
           {/* Support CTA */}
           <div id="support" className="mt-8 pt-8 border-t border-white/10">
             <p className="text-gray-500 text-xs mb-4 uppercase tracking-widest">Support this work</p>
-            <a href="https://hub.goodbotai.tech/donate"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500/10 border border-orange-500/30 rounded-xl hover:border-orange-500/60 transition-colors text-orange-400 text-sm font-medium">
+            <button
+              onClick={() => setShowDonate(true)}
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500/10 border border-orange-500/30 rounded-xl hover:border-orange-500/60 transition-colors text-orange-400 text-sm font-medium cursor-pointer">
               <span>₿</span> Send Bitcoin
-            </a>
+            </button>
             <p className="text-gray-600 text-xs mt-3">Your support keeps this project alive and free.</p>
           </div>
         </div>
       </section>
+
+      {showDonate && <DonateModal onClose={() => setShowDonate(false)} />}
     </>
   )
 }
