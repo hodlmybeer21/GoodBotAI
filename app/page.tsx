@@ -212,6 +212,7 @@ export default function Home() {
           <p className="text-gray-400 mb-8 sm:mb-10 leading-relaxed text-sm sm:text-base px-2">
             Weekly(ish) — AI developments, side income ideas, operator mindset shifts, and what Tyler's actually building. No fluff, no hustle porn. Just signal.
           </p>
+          <p className="text-gray-500 text-xs mb-6">or support this work → <a href="#support" className="text-brand-400 hover:text-brand-300 transition-colors">See ways to contribute</a></p>
           {status === 'success' ? (
             <div className="p-6 bg-brand-500/10 border border-brand-500/30 rounded-xl">
               <span className="text-2xl">✅</span>
@@ -267,6 +268,22 @@ export default function Home() {
                 <div className="text-xs text-gray-400">tyler@goodbotai.tech</div>
               </div>
             </a>
+          </div>
+
+          {/* Support CTA */}
+          <div id="support" className="mt-8 pt-8 border-t border-white/10">
+            <p className="text-gray-500 text-xs mb-4 uppercase tracking-widest">Support this work</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="https://www.buymeacoffee.com/goodbotai" target="_blank" rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-5 py-3 bg-amber-500/10 border border-amber-500/30 rounded-xl hover:border-amber-500/60 transition-colors text-amber-400 text-sm font-medium">
+                <span>☕</span> Buy me a coffee
+              </a>
+              <a href="https://bitcoinhub.goodbotai.tech/donate"
+                className="flex items-center justify-center gap-2 px-5 py-3 bg-orange-500/10 border border-orange-500/30 rounded-xl hover:border-orange-500/60 transition-colors text-orange-400 text-sm font-medium">
+                <span>₿</span> Send Bitcoin
+              </a>
+            </div>
+            <p className="text-gray-600 text-xs mt-3">Every contribution keeps this project alive and free.</p>
           </div>
         </div>
       </section>
