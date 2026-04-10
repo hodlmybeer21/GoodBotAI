@@ -210,7 +210,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center">
           <span className="text-4xl mb-6 block">📬</span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">The GoodBot Dispatch</h2>
-          <p className="text-gray-400 mb-8 leading-relaxed">
+          <p className="text-gray-400 mb-8 sm:mb-10 leading-relaxed text-sm sm:text-base px-2">
             Weekly(ish) — AI developments, side income ideas, operator mindset shifts, and what Tyler's actually building. No fluff, no hustle porn. Just signal.
           </p>
           {status === 'success' ? (
@@ -220,14 +220,14 @@ export default function Home() {
               <p className="text-gray-400 text-sm mt-1">First issue lands soon. Thanks for being early.</p>
             </div>
           ) : (
-            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto px-4">
+            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto px-4 sm:px-0">
               <input
                 type="email"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 placeholder="your@email.com"
                 required
-                className="flex-1 px-4 py-3 bg-dark-700 border border-white/20 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-brand-500 transition-colors"
+                className="flex-1 px-4 py-3 bg-dark-700 border border-white/20 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-brand-500 transition-colors min-w-0"
               />
               <button
                 type="submit"
