@@ -194,13 +194,12 @@ export default function Home() {
               <p className="text-gray-400 text-sm leading-relaxed mb-3">13 interactive Bitcoin education games, live analytics dashboard, real-time BTC market data, and more.</p>
               <p className="text-brand-400 text-xs font-medium">hub.goodbotai.tech →</p>
             </a>
-            <a href="https://brewasset.vercel.app" target="_blank" rel="noopener noreferrer"
-              className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
+            <Link href="/brewbot" className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-amber-500/40 transition-all hover:-translate-y-1">
               <span className="text-3xl mb-4 block">🍺</span>
-              <h4 className="font-bold text-lg mb-2 group-hover:text-brand-400 transition-colors">BrewAsset</h4>
-              <p className="text-gray-400 text-sm leading-relaxed mb-3">Beverage distribution SaaS — inventory management built for the way the industry actually works.</p>
-              <p className="text-brand-400 text-xs font-medium">brewasset.vercel.app →</p>
-            </a>
+              <h4 className="font-bold text-lg mb-2 group-hover:text-amber-400 transition-colors">BrewBot</h4>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">Beer industry intelligence delivered every Monday. NBWA BPI, craft closures, M&A, tariffs — the distributor perspective.</p>
+              <p className="text-amber-400 text-xs font-medium">goodbotai.tech/brewbot →</p>
+            </Link>
           </div>
         </div>
       </section>
