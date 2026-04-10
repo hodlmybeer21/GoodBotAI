@@ -248,15 +248,15 @@ export default function Home() {
       <section id="connect" className="py-16 sm:py-24 px-4 sm:px-6 bg-dark-800/50 border-t border-white/5">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
-          <p className="text-gray-400 mb-8 sm:mb-12 leading-relaxed">
+          <p className="text-gray-400 mb-8 sm:mb-12 leading-relaxed text-sm sm:text-base">
             Found something useful? Have a question? Reach out.
           </p>
-          <div className="grid sm:grid-cols-2 gap-4 max-w-lg mx-auto px-4">
+          <div className="grid sm:grid-cols-2 gap-4 max-w-lg mx-auto px-4 sm:px-0">
             <a href="https://x.com" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-3 p-4 bg-dark-700 border border-white/10 rounded-xl hover:border-brand-500/40 transition-colors">
               <span className="text-2xl">𝕏</span>
               <div className="text-left">
-                <div className="font-semibold">X / Twitter</div>
+                <div className="font-semibold text-sm">X / Twitter</div>
                 <div className="text-xs text-gray-400">Follow the journey</div>
               </div>
             </a>
