@@ -41,18 +41,18 @@ export default function Home() {
             <span>🤖</span>
             <span>Human + AI, growing together</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black mb-6 leading-tight">
             I have an AI agent.<br />
             <span className="text-brand-400 glow">I talk to it daily.</span>
           </h1>
-          <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto px-4">
             Most people are still figuring out if AI is useful. I'm already building a business with it — documenting what works, what doesn't, and what the new economy looks like from the inside.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#newsletter" className="px-8 py-4 bg-brand-500 hover:bg-brand-600 text-white font-semibold rounded-xl transition-colors">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
+            <a href="#newsletter" className="px-6 sm:px-8 py-3 sm:py-4 bg-brand-500 hover:bg-brand-600 text-white font-semibold rounded-xl transition-colors text-center">
               Join the newsletter
             </a>
-            <Link href="/#about" className="px-8 py-4 border border-white/20 hover:border-white/40 rounded-xl font-semibold transition-colors">
+            <Link href="/#about" className="px-6 sm:px-8 py-3 sm:py-4 border border-white/20 hover:border-white/40 rounded-xl font-semibold transition-colors text-center">
               How this works
             </Link>
           </div>
@@ -60,11 +60,11 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id="about" className="py-24 px-6 border-t border-white/5">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <section id="about" className="py-16 sm:py-24 px-4 sm:px-6 border-t border-white/5">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div>
             <h2 className="text-sm font-semibold text-brand-400 uppercase tracking-widest mb-4">About</h2>
-            <h3 className="text-4xl font-bold mb-6">Tyler + GoodBot</h3>
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">Tyler + GoodBot</h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
                 I'm Tyler. I've been in the trenches of a business going through its first real tech overhaul — and I'm using AI to build something better.
@@ -109,11 +109,11 @@ export default function Home() {
       </section>
 
       {/* Topics */}
-      <section id="topics" className="py-24 px-6 bg-dark-800/50 border-t border-white/5">
+      <section id="topics" className="py-16 sm:py-24 px-4 sm:px-6 bg-dark-800/50 border-t border-white/5">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-sm font-semibold text-brand-400 uppercase tracking-widest mb-4 text-center">What This Covers</h2>
-          <h3 className="text-4xl font-bold mb-16 text-center">The Intersections That Matter</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-16 text-center">The Intersections That Matter</h3>
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {[
               {
                 icon: '📊',
@@ -168,11 +168,11 @@ export default function Home() {
       </section>
 
       {/* Ecosystem */}
-      <section id="ecosystem" className="py-24 px-6 border-t border-white/5">
+      <section id="ecosystem" className="py-16 sm:py-24 px-4 sm:px-6 border-t border-white/5">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-sm font-semibold text-brand-400 uppercase tracking-widest mb-4 text-center">Built by Tyler + GoodBot</h2>
-          <h3 className="text-4xl font-bold mb-16 text-center">The Full Ecosystem</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-16 text-center">The Full Ecosystem</h3>
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <a href="https://tracker.goodbotai.tech" target="_blank" rel="noopener noreferrer"
               className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
               <span className="text-3xl mb-4 block">📊</span>
@@ -206,10 +206,10 @@ export default function Home() {
       </section>
 
       {/* Newsletter */}
-      <section id="newsletter" className="py-24 px-6 border-t border-white/5">
+      <section id="newsletter" className="py-16 sm:py-24 px-4 sm:px-6 border-t border-white/5">
         <div className="max-w-2xl mx-auto text-center">
           <span className="text-4xl mb-6 block">📬</span>
-          <h2 className="text-4xl font-bold mb-4">The GoodBot Dispatch</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">The GoodBot Dispatch</h2>
           <p className="text-gray-400 mb-8 leading-relaxed">
             Weekly(ish) — AI developments, side income ideas, operator mindset shifts, and what Tyler's actually building. No fluff, no hustle porn. Just signal.
           </p>
@@ -220,7 +220,7 @@ export default function Home() {
               <p className="text-gray-400 text-sm mt-1">First issue lands soon. Thanks for being early.</p>
             </div>
           ) : (
-            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+            <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto px-4">
               <input
                 type="email"
                 value={email}
@@ -245,13 +245,13 @@ export default function Home() {
       </section>
 
       {/* Connect */}
-      <section id="connect" className="py-24 px-6 bg-dark-800/50 border-t border-white/5">
+      <section id="connect" className="py-16 sm:py-24 px-4 sm:px-6 bg-dark-800/50 border-t border-white/5">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
-          <p className="text-gray-400 mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Let's Connect</h2>
+          <p className="text-gray-400 mb-8 sm:mb-12 leading-relaxed">
             Found something useful? Have a question? Reach out.
           </p>
-          <div className="grid sm:grid-cols-2 gap-4 max-w-lg mx-auto">
+          <div className="grid sm:grid-cols-2 gap-4 max-w-lg mx-auto px-4">
             <a href="https://x.com" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-3 p-4 bg-dark-700 border border-white/10 rounded-xl hover:border-brand-500/40 transition-colors">
               <span className="text-2xl">𝕏</span>
