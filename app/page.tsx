@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-[80vh] flex items-center justify-center px-6 pt-20 pb-32">
+      <section className="relative min-h-[80vh] flex items-center justify-center px-4 sm:px-6 pt-20 pb-24 sm:pb-32">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl" />
           <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-brand-400/5 rounded-full blur-3xl" />
