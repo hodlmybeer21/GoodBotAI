@@ -273,7 +273,7 @@ export default function Home() {
           {/* Support CTA */}
           <div id="support" className="mt-8 pt-8 border-t border-white/10">
             <p className="text-gray-500 text-xs mb-4 uppercase tracking-widest">Support this work</p>
-            <a href="https://bitcoinhub.goodbotai.tech/donate"
+            <a href="https://hub.goodbotai.tech/donate"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500/10 border border-orange-500/30 rounded-xl hover:border-orange-500/60 transition-colors text-orange-400 text-sm font-medium">
               <span>₿</span> Send Bitcoin
             </a>
