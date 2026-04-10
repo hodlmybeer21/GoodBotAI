@@ -273,17 +273,11 @@ export default function Home() {
           {/* Support CTA */}
           <div id="support" className="mt-8 pt-8 border-t border-white/10">
             <p className="text-gray-500 text-xs mb-4 uppercase tracking-widest">Support this work</p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="https://www.buymeacoffee.com/goodbotai" target="_blank" rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 px-5 py-3 bg-amber-500/10 border border-amber-500/30 rounded-xl hover:border-amber-500/60 transition-colors text-amber-400 text-sm font-medium">
-                <span>☕</span> Buy me a coffee
-              </a>
-              <a href="https://bitcoinhub.goodbotai.tech/donate"
-                className="flex items-center justify-center gap-2 px-5 py-3 bg-orange-500/10 border border-orange-500/30 rounded-xl hover:border-orange-500/60 transition-colors text-orange-400 text-sm font-medium">
-                <span>₿</span> Send Bitcoin
-              </a>
-            </div>
-            <p className="text-gray-600 text-xs mt-3">Every contribution keeps this project alive and free.</p>
+            <a href="https://bitcoinhub.goodbotai.tech/donate"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-orange-500/10 border border-orange-500/30 rounded-xl hover:border-orange-500/60 transition-colors text-orange-400 text-sm font-medium">
+              <span>₿</span> Send Bitcoin
+            </a>
+            <p className="text-gray-600 text-xs mt-3">Your support keeps this project alive and free.</p>
           </div>
         </div>
       </section>

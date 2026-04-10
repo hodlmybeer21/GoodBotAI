@@ -27,7 +27,6 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-sm mb-3 text-gray-200">Support</h4>
             <div className="flex flex-col gap-2 text-sm text-gray-400">
-              <a href="https://www.buymeacoffee.com/goodbotai" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">☕ Buy me a coffee</a>
               <a href="https://bitcoinhub.goodbotai.tech/donate" className="hover:text-orange-400 transition-colors">₿ Send Bitcoin</a>
             </div>
           </div>
