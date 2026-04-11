@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 const BTC_ADDRESS = 'bc1qakn7jw6wjuhr3t5mpgjaw5ppnsp7gwt4534php'
-const QR_URL = `https://api.qrcodemonkey.com/qrcode?size=300&dpi=30&color=ffffff&bgcolor=1f2128&format=png&data=bitcoin:${BTC_ADDRESS}`
+const QR_URL = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=bitcoin:${BTC_ADDRESS}&bgcolor=1f2128&color=ffffff&format=png`
 
 export default function DonateModal({ onClose }: { onClose: () => void }) {
   const [copied, setCopied] = useState(false)
