@@ -5,20 +5,20 @@ import { useState } from 'react'
 import DonateModal from '@/components/DonateModal'
 
 const latestReport = {
-  date: 'March 30, 2026',
+  date: 'April 20, 2026',
   bpi: 50,
   themes: [
-    { label: 'NBWA BPI', value: '50 — first growth in 20 months', icon: '📈' },
-    { label: 'Craft Closures', value: 'Persist but mid-size regionals holding', icon: '🏭' },
-    { label: 'Boston Beer', value: 'Warns on 2026 depletions again', icon: '⚠️' },
-    { label: 'Aluminum Tariffs', value: 'Chronic pressure, not acute crisis', icon: '💰' },
+    { label: 'NBWA BPI', value: '50 — first expansion in 20 months', icon: '📈' },
+    { label: 'Hop Stocks', value: 'Down 13% YoY — lowest since 2018, variety tightening', icon: '🌿' },
+    { label: 'EPR Deadlines', value: '7 states entering compliance phases — Oregon and Colorado active', icon: '⚖️' },
+    { label: 'Innovation', value: 'Functional drinks, no-low alcohol, protein beverages dominate R&D', icon: '🧪' },
   ],
-  sources: 8,
+  sources: 7,
   highlights: [
-    'NBWA Beer Purchasers Index hits 50 — first expansion in 20 months',
-    'Craft brewery closures continue but regional mid-size operations are resilient',
-    'Boston Beer Company again revising 2026 depletion estimates downward',
-    'Aluminum tariff impact remains a structural headwind, not a crisis-level event',
+    'NBWA Beer Purchasers Index hits 50 — first expansion in 20 months, every segment posts YoY gains',
+    'Hop stocks at 147M lbs — down 13% YoY, 25% below 2022 peak; tightest since March 2018',
+    'EPR programs in 7 states entering near-term compliance phases — Oregon and Colorado fees already active',
+    'Functional beverages and no-low alcohol innovation accelerating; craft beer adapting to competition',
   ],
 }
 
@@ -95,14 +95,6 @@ export default function BrewBotClient() {
               <h2 className="text-sm font-semibold text-amber-400 uppercase tracking-widest mb-2">Latest Report</h2>
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold">Week of {latestReport.date}</h3>
             </div>
-            <a
-              href="https://drive.google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-amber-400 hover:text-amber-300 text-sm font-medium flex items-center gap-1 transition-colors sm:self-end"
-            >
-              View in Drive →
-            </a>
           </div>
 
           {/* Metrics strip */}
