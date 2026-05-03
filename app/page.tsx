@@ -66,7 +66,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-sm font-semibold text-brand-400 uppercase tracking-widest mb-4 text-center">Built in Weeks, Not Months</h2>
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-12 text-center">What Human + AI Can Actually Ship</h3>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-gradient-to-br from-brand-900/30 to-dark-700 rounded-2xl border border-brand-500/20 p-8">
               <span className="text-4xl mb-4 block">🖥️</span>
               <h4 className="font-bold text-xl mb-3 text-brand-400">POS Training System</h4>
@@ -82,6 +82,14 @@ export default function Home() {
                 An interactive learning platform for ages 4–7. Color Lab, Pixel Canvas, Math Lab, Syllable Scooper, Mad Libs, and ReadAlong. Also: GoodBot Campus — an explorable school world where kids walk room to room finding activities. Built with a human+AI team in an afternoon.
               </p>
               <a href="https://ideas.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="text-purple-400 text-sm font-medium hover:text-purple-300">Explore →</a>
+            </div>
+            <div className="bg-gradient-to-br from-green-900/30 to-dark-700 rounded-2xl border border-green-500/20 p-8">
+              <span className="text-4xl mb-4 block">🎯</span>
+              <h4 className="font-bold text-xl mb-3 text-green-400">TrainField AI</h4>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                AI-powered sales training simulator for beverage distribution teams. Practice real conversations with a live AI persona — deal stages, difficulty levels, custom scenarios built by managers. Tracks rep progress with detailed coaching scores per session.
+              </p>
+              <a href="https://training.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="text-green-400 text-sm font-medium hover:text-green-300">Try it →</a>
             </div>
           </div>
           <p className="text-center text-gray-500 text-sm mt-8">
@@ -179,6 +187,13 @@ export default function Home() {
               <h4 className="font-bold text-lg mb-2 group-hover:text-brand-400 transition-colors">BitcoinHub</h4>
               <p className="text-gray-400 text-sm leading-relaxed mb-3">13 interactive Bitcoin education games, live analytics dashboard, real-time BTC market data, whale tracking, and a trading cockpit with 14 live feeds.</p>
               <p className="text-brand-400 text-xs font-medium">hub.goodbotai.tech →</p>
+            </a>
+            <a href="https://training.goodbotai.tech" target="_blank" rel="noopener noreferrer"
+              className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-green-500/40 transition-all hover:-translate-y-1">
+              <span className="text-3xl mb-4 block">🎯</span>
+              <h4 className="font-bold text-lg mb-2 group-hover:text-green-400 transition-colors">TrainField AI</h4>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">AI sales training simulator for beverage distribution teams. Practice with deal stages, difficulty levels, and custom manager-built personas. Track progress with coaching scores and drill recommendations.</p>
+              <p className="text-green-400 text-xs font-medium">training.goodbotai.tech →</p>
             </a>
 
 
