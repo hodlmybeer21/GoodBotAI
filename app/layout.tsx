@@ -8,16 +8,25 @@ export const metadata: Metadata = {
   description: 'Tyler + an AI agent, documenting what human + AI can actually ship — from distribution ops to side income systems to the Boomer → Millennial business handoff.',
   keywords: ['AI agent', 'human + AI collaboration', 'Boomer business transitions', 'millennial operators', 'distribution technology', 'side income systems', 'hard assets', 'personal brand'],
   openGraph: {
-    title: 'GoodBotAI — Tyler + AI',
+    title: 'GoodBotAI — Tyler + AI, Bridging Boomer Businesses to the Millennial Era',
     description: 'A human + AI agent, documenting what works — and helping bridge Boomer businesses into the millennial era.',
     type: 'website',
     url: 'https://goodbotai.tech',
     siteName: 'GoodBotAI',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1280,
+        height: 720,
+        alt: 'Tyler + AI — Bridging Boomer Businesses to the Millennial Era',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'GoodBotAI — Tyler + AI',
     description: 'A human + AI agent, documenting what works — and helping bridge Boomer businesses into the millennial era.',
+    images: ['/og-image.jpg'],
   },
 }
 

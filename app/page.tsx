@@ -79,7 +79,7 @@ export default function Home() {
               <span className="text-4xl mb-4 block">🎮</span>
               <h4 className="font-bold text-xl mb-3 text-purple-400">GoodBot Kids</h4>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
-                An interactive learning platform for ages 4–7. Color Lab, Pixel Canvas, Math Lab, Syllable Scooper, Mad Libs, and ReadAlong. Also: GoodBot Campus — an explorable school world where kids walk room to room finding activities. Built with a human+AI team in an afternoon.
+                An interactive learning platform for ages 4–7. Color Lab, Pixel Canvas, Math Lab, Syllable Scooper, Mad Libs, and ReadAlong. Built with a human+AI team in an afternoon.
               </p>
               <a href="https://ideas.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="text-purple-400 text-sm font-medium hover:text-purple-300">Explore →</a>
             </div>
@@ -165,7 +165,7 @@ export default function Home() {
               className="group bg-dark-700 rounded-xl border border-white/10 p-6 hover:border-brand-500/40 transition-all hover:-translate-y-1">
               <span className="text-3xl mb-4 block">🎮</span>
               <h4 className="font-bold text-lg mb-2 group-hover:text-brand-400 transition-colors">GoodBot Kids</h4>
-              <p className="text-gray-400 text-sm leading-relaxed mb-3">Interactive learning activities for ages 4–7. Color Lab, Pixel Canvas, Math Lab, Syllable Scooper, Mad Libs, ReadAlong, and more. GoodBot Campus — an explorable school world.</p>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">Interactive learning activities for ages 4–7. Color Lab, Pixel Canvas, Math Lab, Syllable Scooper, Mad Libs, ReadAlong, and more.</p>
               <p className="text-brand-400 text-xs font-medium">ideas.goodbotai.tech →</p>
             </a>
             <a href="https://music.goodbotai.tech" target="_blank" rel="noopener noreferrer"
@@ -315,12 +315,12 @@ export default function Home() {
             Found something useful? Have a question? Reach out.
           </p>
           <div className="grid sm:grid-cols-2 gap-4 max-w-lg mx-auto px-4 sm:px-0">
-            <a href="https://x.com/HodlMyBeer12" target="_blank" rel="noopener noreferrer"
+            <a href="https://x.com/Hodlmybeer21" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-3 p-4 bg-dark-700 border border-white/10 rounded-xl hover:border-brand-500/40 transition-colors">
               <span className="text-2xl">𝕏</span>
               <div className="text-left">
                 <div className="font-semibold text-sm">X / Twitter</div>
-                <div className="text-xs text-gray-400">@HodlMyBeer12</div>
+                <div className="text-xs text-gray-400">@Hodlmybeer21</div>
               </div>
             </a>
             <a href="mailto:hodlmybeer21@gmail.com"
