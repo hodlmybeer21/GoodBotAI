@@ -242,7 +242,7 @@ export default function Home() {
               {
                 icon: '🏭',
                 title: 'Boomer Business Transitions',
-                desc: 'The generation running distribution companies is aging out. Someone has to modernize those workflows. That\'s opportunity — and a real problem to solve.',
+                desc: 'Boomer-owned distribution and trades companies are about to transfer to millennial operators. Most aren\'t ready — systems, customers, and workflows that don\'t speak digital. Modernizing that handoff is the opportunity.',
                 tags: ['#succession', '#ops', '#modernization'],
               },
               {
@@ -315,12 +315,12 @@ export default function Home() {
             Found something useful? Have a question? Reach out.
           </p>
           <div className="grid sm:grid-cols-2 gap-4 max-w-lg mx-auto px-4 sm:px-0">
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://x.com/HodlMyBeer12" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-3 p-4 bg-dark-700 border border-white/10 rounded-xl hover:border-brand-500/40 transition-colors">
               <span className="text-2xl">𝕏</span>
               <div className="text-left">
                 <div className="font-semibold text-sm">X / Twitter</div>
-                <div className="text-xs text-gray-400">Follow the journey</div>
+                <div className="text-xs text-gray-400">@HodlMyBeer12</div>
               </div>
             </a>
             <a href="mailto:hodlmybeer21@gmail.com"

@@ -25,7 +25,7 @@ const latestReport = {
 const sampleMetrics = [
   { label: 'NBWA BPI', value: '59', sub: 'Back in expansion after 21 months', icon: '📈' },
   { label: 'Sources Scanned', value: '25', sub: 'Per weekly cycle', icon: '🔍' },
-  { label: 'Key Themes', value: '5', sub: 'Per report edition', icon: '🎯' },
+  { label: 'Key Themes', value: '4', sub: 'Per report edition', icon: '🎯' },
   { label: 'Delivery', value: 'Mon 7:15 AM', sub: 'Every week, automatically', icon: '⏰' },
 ]
 

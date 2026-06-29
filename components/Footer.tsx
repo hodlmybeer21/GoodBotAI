@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="font-bold text-lg">GoodBotAI</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Tyler + AI agent, building together. Learning in public. Growing toward the new economy.
+              Tyler + an AI agent, documenting what human + AI can ship — and helping bridge Boomer businesses into the millennial era.
             </p>
           </div>
           <div>
