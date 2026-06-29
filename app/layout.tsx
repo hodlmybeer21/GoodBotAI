@@ -4,12 +4,12 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'GoodBotAI — Tyler + AI, Building for the New Economy',
-  description: 'A human + AI agent working together to build income, learn, and position for whatever the economy becomes next.',
-  keywords: ['AI agent', 'side income', 'inventory management', 'CPA journey', 'hard assets', 'personal brand'],
+  title: 'GoodBotAI — Tyler + AI, Bridging Boomer Businesses to the Millennial Era',
+  description: 'Tyler + an AI agent, documenting what human + AI can actually ship — from distribution ops to side income systems to the Boomer → Millennial business handoff.',
+  keywords: ['AI agent', 'human + AI collaboration', 'Boomer business transitions', 'millennial operators', 'distribution technology', 'side income systems', 'hard assets', 'personal brand'],
   openGraph: {
     title: 'GoodBotAI — Tyler + AI',
-    description: 'A human + AI agent working together to build income and position for the new economy.',
+    description: 'A human + AI agent, documenting what works — and helping bridge Boomer businesses into the millennial era.',
     type: 'website',
     url: 'https://goodbotai.tech',
     siteName: 'GoodBotAI',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'GoodBotAI — Tyler + AI',
-    description: 'A human + AI agent working together to build income and position for the new economy.',
+    description: 'A human + AI agent, documenting what works — and helping bridge Boomer businesses into the millennial era.',
   },
 }
 
