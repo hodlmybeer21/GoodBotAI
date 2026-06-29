@@ -5,26 +5,26 @@ import { useState } from 'react'
 import DonateModal from '@/components/DonateModal'
 
 const latestReport = {
-  date: 'April 20, 2026',
-  bpi: 50,
+  date: 'May 3, 2026',
+  bpi: 59,
   themes: [
-    { label: 'NBWA BPI', value: '50 — first expansion in 20 months', icon: '📈' },
-    { label: 'Hop Stocks', value: 'Down 13% YoY — lowest since 2018, variety tightening', icon: '🌿' },
-    { label: 'EPR Deadlines', value: '7 states entering compliance phases — Oregon and Colorado active', icon: '⚖️' },
-    { label: 'Innovation', value: 'Functional drinks, no-low alcohol, protein beverages dominate R&D', icon: '🧪' },
+    { label: 'NBWA BPI', value: '59 — back in expansion after 21 months, FMB/seltzer leads at 56', icon: '📈' },
+    { label: 'Craft Closures', value: 'Third straight year closures outpace openings — ~189K jobs, down 4% YoY', icon: '🏭' },
+    { label: 'Boston Beer Q1', value: 'Missed EPS by 18%, shipments -6.9%, Angry Orchard/Twisted Tea outperforming', icon: '🍺' },
+    { label: 'Aluminum Tariffs', value: '$2.2B industry cost since imposed, 50% on sheet aluminum still pressuring margins', icon: '💰' },
   ],
-  sources: 7,
+  sources: 25,
   highlights: [
-    'NBWA Beer Purchasers Index hits 50 — first expansion in 20 months, every segment posts YoY gains',
-    'Hop stocks at 147M lbs — down 13% YoY, 25% below 2022 peak; tightest since March 2018',
-    'EPR programs in 7 states entering near-term compliance phases — Oregon and Colorado fees already active',
-    'Functional beverages and no-low alcohol innovation accelerating; craft beer adapting to competition',
+    'NBWA Beer Purchasers Index surges to 59 — first expansion reading in 21 months, broad-based across FMB/seltzer (56), below-premium (50), and cider (45)',
+    'Craft beer production declined in 2025 with closures outnumbering openings for third consecutive year; craft holds 24.6% of total beer retail dollar sales',
+    'Boston Beer Q1 2026 missed EPS estimates by ~18%; depletions fell 4% YoY, but Beyond Beer portfolio (Angry Orchard, Twisted Tea) grew ~3% vs. flat core beer',
+    'Reyes Beverage Group expanding RNDC deal to 5 additional markets; KEG 1 acquiring Pine State Trading Co. (New England) — M&A wave at distribution layer accelerating',
   ],
 }
 
 const sampleMetrics = [
-  { label: 'NBWA BPI', value: '50', sub: 'First growth in 20 months', icon: '📈' },
-  { label: 'Sources Scanned', value: '8', sub: 'Per weekly cycle', icon: '🔍' },
+  { label: 'NBWA BPI', value: '59', sub: 'Back in expansion after 21 months', icon: '📈' },
+  { label: 'Sources Scanned', value: '25', sub: 'Per weekly cycle', icon: '🔍' },
   { label: 'Key Themes', value: '5', sub: 'Per report edition', icon: '🎯' },
   { label: 'Delivery', value: 'Mon 7:15 AM', sub: 'Every week, automatically', icon: '⏰' },
 ]
