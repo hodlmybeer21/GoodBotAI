@@ -48,7 +48,7 @@ export default function Home() {
             <span className="text-brand-400 glow">I talk to it daily.</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl mx-auto px-4">
-            Most people are still figuring out if AI is useful. I'm already building a business with it — documenting what works, what doesn't, and what the new economy looks like from the inside.
+            The companies my family and neighbors built are about to change hands. I'm using AI to help bridge that gap before it lands on the next owners' desks unprepared — and to give the next generation a real shot at running them better.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <a href="#ecosystem" className="px-6 sm:px-8 py-3 sm:py-4 bg-brand-500 hover:bg-brand-600 text-white font-semibold rounded-xl transition-colors text-center">
@@ -106,19 +106,19 @@ export default function Home() {
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">Tyler + GoodBot</h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                I'm Tyler. I've been in the trenches of a business going through its first real tech overhaul — and I'm using AI to build something better.
+                I'm Tyler. I work in the trades — distribution, beer, inventory — and I'm obsessed with one question: <em>what happens when the generation running these companies hands them off?</em>
               </p>
               <p>
-                GoodBot is my AI agent. Not a chatbot — a working partner. It researches, drafts, builds, reminds me, and pushes back when I'm wrong. We've been working together long enough that I can tell you: the people who learn to work <em>with</em> AI are going to have a very different 10 years than the people who don't.
+                Most Boomer-owned businesses weren't built for digital. They were built for relationships, hustle, and showing up. That worked. But when they transfer, the next owners inherit systems, customers, and workflows that don't speak the same language as the world they're operating in. AI is how we close that gap without losing what made them work.
               </p>
               <p>
-                This site is the proof of that. Built together. Written together. Growing together.
+                GoodBot is my AI agent. Not a chatbot — a working partner. It researches, drafts, builds, reminds me, and pushes back when I'm wrong. Together we're documenting what human + AI can actually ship: the apps, the workflows, and the operator mindset that makes the next decade navigable.
               </p>
             </div>
             <div className="mt-8 p-4 bg-dark-700 rounded-xl border border-white/10">
               <p className="text-sm text-gray-400 mb-2">Currently</p>
               <div className="flex flex-wrap gap-2">
-                {['Inventory Manager', 'Side Income Builder', 'AI Collaborator', 'Vocational Tech Builder'].map(tag => (
+                {['Technology Innovator', 'Boomer → Millennial Bridge', 'AI Collaborator', 'Side Income Builder'].map(tag => (
                   <span key={tag} className="px-3 py-1 bg-brand-500/10 border border-brand-500/30 rounded-full text-brand-400 text-xs font-medium">
                     {tag}
                   </span>
@@ -136,6 +136,7 @@ export default function Home() {
                 { icon: '🤖', text: 'The people who learn to work with AI agents will compound their skills. Everyone else will be competing with them.' },
                 { icon: '📈', text: 'Side income isn\'t about hustle. It\'s about building systems that work while you sleep.' },
                 { icon: '🏗️', text: 'The best time to position yourself was 5 years ago. The second best time is right now — before the shift is obvious.' },
+                { icon: '🔁', text: 'The handoff is coming. Boomer-owned businesses are about to transfer to millennial operators. Most aren\'t ready. AI is how we close that gap.' },
               ].map(({ icon, text }) => (
                 <div key={text} className="flex gap-3 text-gray-300 text-sm leading-relaxed">
                   <span className="text-xl flex-shrink-0">{icon}</span>
