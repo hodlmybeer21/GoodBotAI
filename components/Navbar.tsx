@@ -21,7 +21,7 @@ export default function Navbar() {
           <Link href="/#about" className="hover:text-brand-400 transition-colors">About</Link>
           <Link href="/#topics" className="hover:text-brand-400 transition-colors">Topics</Link>
           <a href="https://tracker.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">Value Tracker</a>
-          <a href="https://hub.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">BitcoinHub</a>
+          <a href="https://bitcoinhub.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">BitcoinHub</a>
           <Link href="/#newsletter" className="hover:text-brand-400 transition-colors">Newsletter</Link>
           <Link href="/#connect" className="px-4 py-2 bg-brand-500/20 border border-brand-500/40 rounded-lg text-brand-400 hover:bg-brand-500/30 transition-colors">
             Connect
@@ -47,7 +47,7 @@ export default function Navbar() {
             <Link href="/#about" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">About</Link>
             <Link href="/#topics" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">Topics</Link>
             <a href="https://tracker.goodbotai.tech" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">Value Tracker</a>
-            <a href="https://hub.goodbotai.tech" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">BitcoinHub</a>
+            <a href="https://bitcoinhub.goodbotai.tech" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">BitcoinHub</a>
             <Link href="/#newsletter" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">Newsletter</Link>
             <Link href="/#connect" onClick={() => setOpen(false)} className="px-4 py-2.5 bg-brand-500/20 border border-brand-500/40 rounded-lg text-brand-400 text-center mt-1">
               Connect
