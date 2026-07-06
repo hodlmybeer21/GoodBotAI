@@ -61,6 +61,92 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Boots on the Ground: Winni Nav */}
+      <section id="winni-nav" className="py-16 sm:py-24 px-4 sm:px-6 border-t border-white/5">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-5 gap-8 md:gap-12 items-center bg-gradient-to-br from-cyan-900/20 to-dark-700 rounded-2xl border border-cyan-500/20 p-6 sm:p-10">
+            <div className="md:col-span-3">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-300 text-xs font-medium mb-6">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400"></span>
+                </span>
+                <span>Currently on the lake — July 2026</span>
+              </div>
+              <h2 className="text-sm font-semibold text-cyan-300 uppercase tracking-widest mb-3">Boots on the Ground</h2>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 leading-tight">
+                <span className="mr-2">🧭</span>Winni Nav
+              </h3>
+              <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
+                A Garmin-style GPS HUD for Lake Winnipesaukee — built because I needed it. Live position (phone GPS, ~3 m accuracy), speed and heading, every public boat launch, crowdsourced buoys and hazards, NH GRANIT bathymetry (reference only), and one-tap trip logging with GPX export. Open it in Chrome on the boat. It runs in your pocket.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href="https://lakewinni.goodbotai.tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-xl transition-colors text-center"
+                >
+                  Open Winni Nav →
+                </a>
+                <a
+                  href="https://lakewinni.goodbotai.tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 border border-white/20 hover:border-cyan-400/40 rounded-xl font-semibold transition-colors text-center text-gray-200"
+                >
+                  lakewinni.goodbotai.tech
+                </a>
+              </div>
+              <p className="text-gray-500 text-xs mt-4">
+                Built in a day. The point isn't the app — it's that a Millennial can ship a GPS HUD solo, then actually use it on the family lake. That's the Boomer-to-Millennial handoff in miniature.
+              </p>
+            </div>
+            <div className="md:col-span-2">
+              <div className="bg-dark-900/70 rounded-2xl border border-cyan-500/20 p-5 shadow-xl">
+                <div className="flex items-center justify-between text-xs text-gray-500 mb-3">
+                  <span className="font-mono">lakewinni.goodbotai.tech</span>
+                  <span className="px-2 py-0.5 bg-cyan-500/10 border border-cyan-500/30 rounded-full text-cyan-300 font-mono">v1.3</span>
+                </div>
+                <ul className="space-y-2 text-sm text-gray-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-cyan-300 mt-0.5">●</span>
+                    <span>Live GPS dot — speed, heading, accuracy</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-cyan-300 mt-0.5">●</span>
+                    <span>18+ NH public boat launches</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-cyan-300 mt-0.5">●</span>
+                    <span>Crowdsourced buoys + hazards</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-cyan-300 mt-0.5">●</span>
+                    <span>NH GRANIT bathymetry (ref only)</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-cyan-300 mt-0.5">●</span>
+                    <span>Trip logging + GPX export</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-cyan-300 mt-0.5">●</span>
+                    <span>Bridges &amp; clearance layer</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-cyan-300 mt-0.5">●</span>
+                    <span>🆘 Where-am-I rescue helper</span>
+                  </li>
+                </ul>
+                <div className="mt-4 pt-3 border-t border-white/5 text-xs text-gray-500 italic">
+                  Recreation aid — defer to the Bizer chart for navigation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured: What Human + AI Can Ship */}
       <section className="py-16 sm:py-24 px-4 sm:px-6 bg-dark-800/50 border-t border-white/5">
         <div className="max-w-5xl mx-auto">
