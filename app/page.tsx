@@ -177,6 +177,14 @@ export default function Home() {
               </p>
               <a href="https://training.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="text-green-400 text-sm font-medium hover:text-green-300">Try it →</a>
             </div>
+            <div className="bg-gradient-to-br from-emerald-900/30 to-dark-700 rounded-2xl border border-emerald-500/20 p-8">
+              <span className="text-4xl mb-4 block">⛳</span>
+              <h4 className="font-bold text-xl mb-3 text-emerald-400">GoodBot Golf</h4>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                NH golf course tracker — 132 courses mapped with 17,000+ OSM features (fairways, greens, bunkers, tees). Per-hole shot log with club distance tracking, club bag with user-managed distances, trip/round scoring, and offline-first localStorage persistence. Built solo with an AI agent.
+              </p>
+              <a href="https://golf.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="text-emerald-400 text-sm font-medium hover:text-emerald-300">Play →</a>
+            </div>
           </div>
           <p className="text-center text-gray-500 text-sm mt-8">
             Every project on this site was built with an AI agent as a genuine collaborator — not a chatbot, not a toy. A working partner.

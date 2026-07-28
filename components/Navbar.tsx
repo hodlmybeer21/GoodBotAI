@@ -23,6 +23,7 @@ export default function Navbar() {
           <a href="https://tracker.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">Value Tracker</a>
           <a href="https://bitcoinhub.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-brand-400 transition-colors">BitcoinHub</a>
           <a href="https://lakewinni.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">Winni Nav</a>
+          <a href="https://golf.goodbotai.tech" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors">Golf Tracker</a>
           <Link href="/#newsletter" className="hover:text-brand-400 transition-colors">Newsletter</Link>
           <Link href="/#connect" className="px-4 py-2 bg-brand-500/20 border border-brand-500/40 rounded-lg text-brand-400 hover:bg-brand-500/30 transition-colors">
             Connect
@@ -50,6 +51,7 @@ export default function Navbar() {
             <a href="https://tracker.goodbotai.tech" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">Value Tracker</a>
             <a href="https://bitcoinhub.goodbotai.tech" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">BitcoinHub</a>
             <a href="https://lakewinni.goodbotai.tech" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="hover:text-cyan-400 transition-colors py-1">Winni Nav</a>
+            <a href="https://golf.goodbotai.tech" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="hover:text-emerald-400 transition-colors py-1">Golf Tracker</a>
             <Link href="/#newsletter" onClick={() => setOpen(false)} className="hover:text-brand-400 transition-colors py-1">Newsletter</Link>
             <Link href="/#connect" onClick={() => setOpen(false)} className="px-4 py-2.5 bg-brand-500/20 border border-brand-500/40 rounded-lg text-brand-400 text-center mt-1">
               Connect
